@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    margin-top: 0px;
+    background-color: #b2fcb2
+}
+
+header {
+    background-image: linear-gradient(to bottom, #5fd464, #404040);
+}   
+
+header > h1, header > p{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav {
+    padding-bottom: 7px;
+}
+
+nav > a {
+    padding-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    margin: auto;
+}
+
+
+
+section#historia > h2 {
+    margin-top: 1px;
+}
+
+section#novoMascote {
+    padding-right: 10px;
+}
+
+img#bugdroid {
+    margin-left: 100px;
+}
+
+section#extra {
+    background-color: #88c2f8b6;
+    padding: 10px;
+}
+
+div#titulo {
+    padding: 10px;
+    background-color: #5fd464;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
