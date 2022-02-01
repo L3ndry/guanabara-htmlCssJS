@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+        /* SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = clildren
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: none; /* Tira o sublinhado */
+            font-weight: bold;
+        }
+
+        a:visited { /* Caso o link for visitado */
+            color: #00a100;
+        }
+
+        a:hover { /* Quando o mouse passar por cima */
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        a:active { /* Quando segurar com o mouse */
+            color: #ffff00;
+        }
+
+        #especial {
+            background-color: aquamarine;
+        }
+
+        #especial::before { /* Adicionar algo antes */
+            content: "-> ";
+        }
+
+        #especial::after { /* Adicionar algo depois */
+            content: " <-";
+        }
